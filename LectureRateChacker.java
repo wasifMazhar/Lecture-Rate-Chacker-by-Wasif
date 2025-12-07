@@ -36,7 +36,7 @@ sc.next();
 }
 }
 
-
+// this will run if the user is a uni student
 if(UserInstitute.equals("uni")){
 
 int TotalLecturesInWeek;
@@ -67,6 +67,7 @@ System.out.printf("Fee per day (4 study days in week): %.2f\n", FeePerDay);
 System.out.printf("Fee per lecture: %.2f\n", FeePerLecture);
 System.out.printf("Fee per hour (1.5 hr per lecture): %.2f\n", FeePerHour);
 }else{
+// this will run if the user is a school student
 
 double FeePerMonth = UserPayingFees;
 double FeePerWeek = FeePerMonth / 4 ; 
